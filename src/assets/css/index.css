@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/**Part1：Reset***********/
+html { cellspacing: 0; }
+html { -webkit-text-size-adjust: none; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, a, span, img { margin: 0; padding: 0; word-break: break-all; text-shadow: none; }
+fieldset, img { border: 0; }
+:focus { outline: 0 none; }
+address, caption, cite, code, dfn, strong, th, var, optgroup { font-style: normal; font-weight: normal; }
+html, body {list-style: none; font-family: '微软雅黑', Arial, "\5FAE\8F6F\96C5\9ED1"; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; }
+input[type=text], input[type=password], select { border: 0; appearance: none; -webkit-appearance: none; -moz-appearance: none; -o-appearance: none; }
+abbr, acronym { border: 0px; font-variant: normal; }
+code, kbd, samp, tt { font-size: 100%; }
+input, button, textarea, select { *font-size: 100%; }
+ /*body { line-height: 1.7; }*/
+ol, ul { list-style: none; }
+li { vertical-align: bottom; }
+table { border-collapse: collapse; border-spacing: 0; text-align: left; }
+caption, th { text-align: left; }
+sup, sub { font-size: 100%; vertical-align: baseline; }
+ins { text-decoration: none; }
+:link, :visited { text-decoration: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; content: none; }
+img { border: 0 none; vertical-align: middle; }
+a, img { outline: none; }
+mark, time { background: none; display: inline; font-family: Tahoma, Geneva, sans-serif; }
+.clearfix:after { clear: both; content: ""; display: block; height: 0; }
+* html .clearfix { height: 1%; }
+a { cursor: pointer; outline: none; text-decoration: none; /* transition:all 0.3s ease 0s; */ }
+a:hover { text-decoration: none; /* transition:all 0.3s ease 0s; */ }
+a:focus { outline: none; -moz-outline: none; }
+.fl { float: left; }
+.fr { float: right; }
+.hc { clear: both; font-size: 0; height: 0; line-height: 0; overflow: hidden; }
+.hide { display: none; }
+i, em { font-style: normal; }
+
+html,body{
+	height: 100%;
+	line-height: 1;
+}
+body{
+	background: #f5f5f5;
+}
+/* .ui-page {
+	margin: 0 auto;
+	max-width: 750px;
+	min-width: 320px;
+	position: relative; 
+	width: 100%;
+    height: 100%;
+    overflow-y: auto;
+} */
+
+/*mint-ui*/
+.mint-header{
+	height: 2.2rem;
+	background: #4f68ff;
+}
+
+
+.discover-page{
+    padding-top: 2.2rem;
+}
+.header .location{
+	font-size: 0.7rem;
+	color: #fff;
+	position: absolute;
+	top:0rem;
+	right: 0.6rem;
+	/*height: 100%;*/
+    line-height: 2.2rem;
+}
+.header .location a{
+	display: block;
+	color: #fff;
+}
+.header .location img{
+	width: 0.65rem;
+	display: inline-block
+}
+.caution{
+	font-size: 0.7rem;
+  	color: #4a4a4a;
+	height: 1.75rem;
+	line-height: 1.75rem;
+	overflow: hidden;
+	background-color: #ffeedb;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 0 0.6rem;
+	margin-bottom: 0.5rem;
+}
+.caution img{
+    display: inline-block;
+    width: 0.8rem;
+    vertical-align: text-bottom;
+}
+

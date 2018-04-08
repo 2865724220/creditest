@@ -1,0 +1,84 @@
+   .has-head{
+   		padding-top:2.2rem;
+   }
+   /* 关注列表和引用卡列表 */
+	.card-list{
+		background: #fff;
+		box-shadow: 0 0 4px 0 rgba(230, 230, 230, 0.5);
+		li{
+			&:last-child{
+				dl{
+					border-bottom: 0;
+				}
+			}
+		}
+		dl{
+			position:relative;
+			margin:0 0.7rem;
+			padding: 32 / @baseRem 0;
+			border-bottom: 1px solid #d8d8d8;
+		}
+		dt{
+			float: left;
+			width:200 / @baseRem;
+			height:126 / @baseRem;
+
+		}
+		dd{
+			float: left;
+			margin-left:20 / @baseRem;
+		    width: calc(~'100% - 5.5rem');
+			height:126 / @baseRem;
+
+		}
+	}
+	.card-img{
+		display:block;
+		width:200 / @baseRem;
+		height:126 / @baseRem;
+	}
+	.card-title{
+		position:relative;
+	}
+	.card-name{
+		font-size:32 / @baseRem;
+		color:#4a4a4a;
+		height:45 / @baseRem;
+		width: calc(~'100% - 2rem');
+	    overflow: hidden;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	    display: block;
+	}
+	.sub-info{
+		font-size:24 / @baseRem;
+		color:#999;
+		white-space: nowrap;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		line-height: 33 / @baseRem;
+	}
+	.follow-num{
+		font-size:24 / @baseRem;
+		color:#999;
+		text-align: right;
+		line-height: 33 / @baseRem;
+	}
+	.bank-mark{
+		font-size:20 / @baseRem;
+		padding:0.05rem  0.35rem;
+		color:#fff;
+		display:block;
+		position:absolute;
+		top:0.3rem;
+		right:0;
+		text-align: center;
+		border-top-left-radius: 20 / @baseRem;
+		border-bottom-right-radius: 20 / @baseRem;
+	}
+	.mark-orange{
+		background: #ff966e;
+	}
+	.mark-blue{
+		background: #58d3ff;
+	}
